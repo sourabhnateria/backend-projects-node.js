@@ -1,3 +1,4 @@
+require("dotenv").config();
 const express = require("express");
 const app = express();
 const errorsController = require("./controllers/errors");
@@ -8,8 +9,7 @@ const { default: mongoose } = require("mongoose");
 const dns = require("node:dns/promises");
 dns.setServers(["1.1.1.1", "8.8.8.8"]);
 
-const MONGO_URL =
-  "mongodb+srv://sourabhnateriacse_db_user:st9QBFcO2KWn7deC@cluster0.fz2fk3p.mongodb.net/todo?appName=Cluster0";
+const MONGO_URL = process.env.MONGO_URL;
 
 const path = require("path");
 const { todo } = require("node:test");
