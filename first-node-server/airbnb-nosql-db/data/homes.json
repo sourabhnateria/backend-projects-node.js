@@ -1,0 +1,50 @@
+[
+  {
+    "houseName": "Toratora",
+    "Price": "1200",
+    "Location": "jamnapar",
+    "Rating": "5.0",
+    "Image": "/images/house1.png",
+    "id": "1"
+  },
+  {
+    "houseName": "pheonix",
+    "Price": "1400",
+    "Location": "nashik",
+    "Rating": "3",
+    "Image": "/images/house2.png",
+    "id": "2"
+  },
+  {
+    "houseName": "zebra",
+    "Price": "1500",
+    "Location": "munnar",
+    "Rating": "5",
+    "Image": "/images/house3.png",
+    "id": "3"
+  },
+  {
+    "houseName": "Alpha",
+    "Price": "2000",
+    "Location": "punjab",
+    "Rating": "5",
+    "Image": "/images/house4.png",
+    "id": "4"
+  },
+  {
+    "houseName": "bhootbangla",
+    "Price": "100000",
+    "Location": "buradi",
+    "Rating": "5",
+    "Image": "/images/house7.png",
+    "id": "0.04631384039585029"
+  },
+  {
+    "houseName": "first house",
+    "Price": "50000",
+    "Location": "jamnapar",
+    "Rating": "5",
+    "Image": "/images/house5.png",
+    "id": "0.7502323153916456"
+  }
+]
